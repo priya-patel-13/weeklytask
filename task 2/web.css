@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main1{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+}
+.main1 .nav{
+    height: 80px;
+    width: 46%;
+    border: 1px solid white;
+    margin-left: 600px;
+}
+.main1 .logo{
+    height: 80px;
+    width: 20%;
+    border: 1px solid white;
+    margin-top: -80px;
+}
+.main1 .nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main1 .logo .l{
+    color: white;
+    line-height: 80px;
+    margin-left: 40px;
+}

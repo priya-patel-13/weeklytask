@@ -1,0 +1,16 @@
+
+@media (min-width:0px )and (max-width:992px)
+{
+    .head{
+        display: none;
+    }
+    .txt{
+        display: none;
+    }
+    .main1{
+        height: 157vh;
+    }
+    .main1 .row .col-12{
+        height: 75vh;
+    }
+}

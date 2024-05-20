@@ -1,0 +1,72 @@
+@media (min-width: 993px) and (max-width: 1300px){
+    
+    #offcanvasRight{
+        width: 85%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    header{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #icon2{
+        position: relative;
+        left: 3%;
+    }
+    #offcanvasRight{
+        width: 95%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    header{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #icon2{
+        position: relative;
+        left: 3%;
+    }
+    .head2 img{
+        height: 30%;
+    }
+    .block{
+        width: 90%;
+    }
+    #offcanvasRight{
+        width: 95%;
+    }
+    .offcanvas1{
+        display: none;
+    }
+    .offcanvas2{
+        width: 100%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px){
+    header{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #icon2{
+        position: relative;
+        left: 3%;
+    }
+    .head2 img{
+        height: 30%;
+    }
+    .block{
+        width: 90%;
+    }
+    #offcanvasRight{
+        width: 95%;
+    }
+    .offcanvas1{
+        display: none;
+    }
+    .offcanvas2{
+        width: 100%;
+    }
+}

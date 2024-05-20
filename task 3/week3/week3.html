@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="week3.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css" integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <center>
+        <header>
+            <div class="menu">
+                <i id="click" class="fa-solid fa-bars"></i>
+                <img src="photos/logo.png" alt="">
+            </div>
+            <div class="searchbar">
+                <button class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="mike">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+            <div class="profile">
+                <i class="ri-video-add-line"></i>
+                <i class="fa-regular fa-bell"></i>
+                <button class="pick">
+                    <img src="photos/mee.jpg" alt="">
+                </button>
+            </div>
+        </header>
+        <br><br><br><br>
+        <div class="main">
+            <div class="left1">
+                <br>
+                <div class="home">
+                    <div class="home_text" style="background-color: rgb(48,47,47);">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Home</p>
+                    </div>
+                    <div class="home_text">
+                        <img src="photos/shorts.png" alt="">
+                        <p>Shorts</p>
+                    </div>
+                    <div class="home_text">
+                        <img style="height: 50px; width: 25%; margin-left: -15px;" src="photos/Subscribe.png" alt="">
+                        <p>Subscriptions</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="you">
+                    <p class="you_p">
+                        You
+                        <i class="fa-solid fa-angle-right"></i>
+                    </p>
+                    <br>
+                    <div class="you_text">
+                        <i class="ri-account-box-line"></i>
+                        <p>Your Channel</p>
+                    </div>
+                    <div class="you_text">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p>History</p>
+                    </div>
+                    <div class="you_text">
+                        <i class="ri-video-line"></i>
+                        <p>Your Video</p>
+                    </div>
+                    <div class="you_text">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Watch Later</p>
+                    </div>
+                    <div class="you_text">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <p>Liked Video</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="subscriptions">
+                    <p class="subscriptions_p">
+                        Subscriptions
+                    </p>
+                    <br>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel1.jpg" alt="">
+                        </button>
+                        <p>Mehndi Design</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel2.jpg" alt="">
+                        </button>
+                        <p>Home Grown</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel3.jpg" alt="">
+                        </button>
+                        <p>Aaliya's Creation</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel4.jpg" alt="">
+                        </button>
+                        <p>Gohel Vijay</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel5.jpg" alt="">
+                        </button>
+                        <p>TST Creative</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel6.jpg" alt="">
+                        </button>
+                        <p>P. eSpOrT</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <button>
+                            <img src="photos/channel7.jpg" alt="">
+                        </button>
+                        <p>Samiksha Pol</p>
+                    </div>
+                    <div class="subscriptions_text">
+                        <i class="ri-add-circle-line"></i>
+                        <p>Browse Channels</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="explore">
+                    <p class="explore_p">
+                        Explore
+                    </p>
+                    <br>
+                    <div class="explore_text">
+                        <i class="fa-solid fa-fire"></i>
+                        <p>Trending</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-shopping-bag-line"></i>
+                        <p>Shopping</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-music-line"></i>
+                        <p>Music</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-clapperboard-line"></i>
+                        <p>Films</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-rfid-line"></i>
+                        <p>Live</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <p>Gaming</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-newspaper-line"></i>
+                        <p>News</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="ri-trophy-line"></i>
+                        <p>Sport</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="fa-regular fa-lightbulb"></i>
+                        <p>Learning</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="fa-solid fa-person-half-dress"></i>
+                        <p>Fashion & Beauty</p>
+                    </div>
+                    <div class="explore_text">
+                        <i class="fa-solid fa-tower-broadcast"></i>
+                        <p>Podcasts</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="youtube">
+                    <p class="youtube_p">
+                        More For You Tube
+                    </p>
+                    <br>
+                    <div class="youtube_text">
+                        <i class="fa-brands fa-youtube"></i>
+                        <p>youtube Premium</p>
+                    </div>
+                    <div class="youtube_text">
+                        <img src="photos/youtube2.png" alt="">
+                        <p>youtube Studio</p>
+                    </div>
+                    <div class="youtube_text">
+                        <img style="height: 60px; width: 75px; margin-left: -20px;" src="photos/youtube3.webp" alt="">
+                        <p>youtube Music</p>
+                    </div>
+                    <div class="youtube_text">
+                        <img src="photos/youtube4.jpg" alt="">
+                        <p>youtube Kids</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="setting">
+                    <div class="setting_text">
+                        <i class="ri-settings-2-line"></i>
+                        <p>Settings</p>
+                    </div>
+                    <div class="setting_text">
+                        <i class="ri-flag-line"></i>
+                        <p>Report History</p>
+                    </div>
+                    <div class="setting_text">
+                        <i class="ri-question-line"></i>
+                        <p>Help</p>
+                    </div>
+                    <div class="setting_text">
+                        <i class="ri-feedback-line"></i>
+                        <p>Send Feedback</p>
+                    </div>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="para">
+                    <p>
+                        About Press Copyright Contact us Creator Advertise Developers
+                    </p>
+                    <br>
+                    <p>
+                        Terms Privacy Policy & Safety How YouTube works Test new features
+                    </p>
+                    <br>
+                    <p class="para_text">
+                        &copy; 2024 Google LLC
+                    </p>
+                </div>
+                <br><br><br><br>
+            </div>
+            <div class="left2">
+                <br>
+                <i class="fa-solid fa-house"></i>
+                <br>
+                <p>Home</p>
+
+                <br><br>
+
+                <img src="photos/shorts.png" alt="">
+                <p style="margin-top: -2px;">Shorts</p>
+
+                <br><br>
+
+                <img style="height: 70px; width: 70px;" src="photos/Subscribe.png" alt="">
+                <p style="margin-top: -10px;">Subscriptions</p>
+
+                <br><br>
+
+                <i style="font-size: 40px;" class="ri-video-line"></i>
+                <br>
+                <p>You</p>
+            </div>
+            <div class="right1">
+                <div class="right_head">
+                    <button style="background-color: white; color: black;">
+                        All
+                    </button>
+                    <button>
+                        Tom Cat
+                    </button>
+                    <button>
+                        Animated Films
+                    </button>
+                    <button>
+                        Tipendra Jethalal Gada
+                    </button>
+                    <button>
+                        Police Procedurals
+                    </button>
+                    <button>
+                        Music
+                    </button>
+                    <button>
+                        Mixes
+                    </button>
+                    <button>
+                        Mr Bean
+                    </button>
+                    <button>
+                        Live
+                    </button>
+                    <button>
+                        New To You
+                    </button>
+                    <button>
+                        News
+                    </button>
+                    <button>
+                        Gadgets
+                    </button>
+                    <button>
+                        Cricket
+                    </button>
+                </div>
+                <br><br><br><br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/dm.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img1_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Doraemon New Episode Doraemon Cartoon - In Hindi - Movie
+                                </h3>
+                                <br>
+                                <p>
+                                    Jannat
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    204k Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    6 Hours ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/tm.jpg" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img2_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Tom & Jerry in italiano | Anno nuovo, stesso duo | WB Kids
+                                </h3>
+                                <br>
+                                <p>
+                                    WB Kids Italiano
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    58M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    3 Years ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/tmc.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img3_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Bhootni Story | Taarak Mehta Ka Ooltah Chashmah | तारक मेहता का उल्टा चश्मा
+                                </h3>
+                                <br>
+                                <p>
+                                    Taarak Mehta Ka Ooltah Chashmah
+                                </p>
+                                <p>
+                                    1M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    6 Days ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/nw.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img4_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    India Maldives Controversy: 15 March तक भारतीय सेना हमारा देश छोड़े - मालदीव |
+                                </h3>
+                                <br>
+                                <p>
+                                    News State
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    58k Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Hours ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/cd.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img5_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    क्या CID के हाथ आएगी 'Qaatil Khiladi' | CID | सी.आई.डी | 27 Dec 2023
+                                </h3>
+                                <br>
+                                <p>
+                                    Sony WAH
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    1.3M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    2 Weeks ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/k.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img6_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    🌸🙏 Krishna Ki Kahaniya Part -30 | Krishna Stories | कृष्णा की कहानियाँ
+                                </h3>
+                                <br>
+                                <p>
+                                    Krishna
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    52M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    2 Days ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="shorts">
+                    <div class="shorts_head">
+                        <div class="shorts_logo">
+                            <img src="photos/reel.png" alt="">
+                            <h1>Shorts</h1>
+                        </div>
+                        <div class="shorts_cross">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="reels">
+                        <div class="shorts_div">
+                            <div class="shorts_img">
+                                <img src="photos/reel1.webp" alt="">
+                            </div>
+                            <br>
+                            <div class="shorts_text">
+                                <div class="reels_text">
+                                    <h3>
+                                        देवदार के पेड़ #oggy | Cartoon for kids
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        750K Views
+                                    </p>
+                                </div>
+                                <div class="reels_i">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shorts_div">
+                            <div class="shorts_img">
+                                <img src="photos/reel2.webp" alt="">
+                            </div>
+                            <br>
+                            <div class="shorts_text">
+                                <div class="reels_text">
+                                    <h3>
+                                        doggy #Cutest doggy 
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        9.7M Views
+                                    </p>
+                                </div>
+                                <div class="reels_i">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shorts_div">
+                            <div class="shorts_img">
+                                <img src="photos/reel3.webp" alt="">
+                            </div>
+                            <br>
+                            <div class="shorts_text">
+                                <div class="reels_text">
+                                    <h3>
+                                        Nikalne se pehle Kalesh jaroori hai😂
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        11M Views
+                                    </p>
+                                </div>
+                                <div class="reels_i">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shorts_div">
+                            <div class="shorts_img">
+                                <img src="photos/reel4.webp" alt="">
+                            </div>
+                            <br>
+                            <div class="shorts_text">
+                                <div class="reels_text">
+                                    <h3>
+                                        performance with sister 😍 
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        61M Views
+                                    </p>
+                                </div>
+                                <div class="reels_i">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="shorts_div">
+                            <div class="shorts_img">
+                                <img src="photos/reel5.webp" alt="">
+                            </div>
+                            <br>
+                            <div class="shorts_text">
+                                <div class="reels_text">
+                                    <h3>
+                                        Black Forest Cake #shorts
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        23M Views
+                                    </p>
+                                </div>
+                                <div class="reels_i">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="show">
+                    <button class="show_butt">
+                        Show More
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <hr class="show_hr">
+                </div>
+
+                <br><br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img7.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img7_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    आरंभ है प्रचंड | Aarambh Hai Prachand | Full Song | Without Lyrics | Kanhayyy_👣✨️
+                                </h3>
+                                <br>
+                                <p>
+                                    kanhayyy_
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    14M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Year ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img8.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img8_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    INDIA VS AFGHANISTAN 2ND T20 HIIGHLIGHTS 2024 | IND VS AFG
+                                </h3>
+                                <br>
+                                <p>
+                                    ComputerPakistan
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    321K Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Hour ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img9.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img9_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    लोटपोट कर देने वाली कॉमेडी सीन्स | Movie Khatta Meetha | Rajpal Yadav - Johny Lever - Akshay Kumar
+                                </h3>
+                                <br>
+                                <p>
+                                    Shemaroo Comedy
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    46M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Year ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img10.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img10_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    ANIMAL: SATRANGA |Ranbir Kapoor, Rashmika| Arijit, Shreyas, Siddharth-Garima|
+                                </h3>
+                                <br>
+                                <p>
+                                    Lyrics Lover
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    857k Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Month ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img11.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img11_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+
+                                    Cheesy Crust Pizza no oven | चीज़ बर्स्ट पीज़्ज़ा घर पे | Cheese burst no yeast |
+                                </h3>
+                                <br>
+                                <p>
+                                    Chef Ranveer Brar
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    9.2M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    3 Years ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img12.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img12_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Jai Shree Ram | Ayodhya Ram Mandir Song 2024 | Yug Ram Raj Ka
+                                </h3>
+                                <br>
+                                <p>
+                                    Hansraj Raghuwanshi
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    27M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    4 Weeks ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img13.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img13_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    DAY 3 | JAMNAGAR | SHREEMAD BHAGVAT KATHA | PU. JIGNESHDADA
+                                </h3>
+                                <br>
+                                <p>
+                                    RADHE RADHE OFFICIAL
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    2.5k Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    <button class="live">
+                                        <i class="ri-rfid-line"></i>
+                                        Live
+                                    </button>
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img14.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img14_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    ઊડતી પતંગ । Khajur Bhai | Jigli and Khajur | PATANG | UTRAYAN |
+                                </h3>
+                                <br>
+                                <p>
+                                    Khajur Bhai
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    917K Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    1 Year ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img15.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img15_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Best of Malhar Thakar | Superhit Comedy Scene | Chello Diwas |
+                                </h3>
+                                <br>
+                                <p>
+                                    Gujarati Comedy
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    3.8M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    2 Years ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br><br>
+                <div class="right_div1">
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img16.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img16_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Ice Cream | Funny Episodes | Mr Bean Cartoon World
+                                </h3>
+                                <br>
+                                <p>
+                                    Mr Bean World
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    77M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    4 Years ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img17.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img17_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Photo Manipulation in Photoshop | Sea in Glass Photo Manipulation |
+                                </h3>
+                                <br>
+                                <p>
+                                    BID IT LAB
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    428K Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    7 Months ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right_div2">
+                        <div class="right_img">
+                            <img src="photos/img18.webp" alt="">
+                        </div>
+                        <br>
+                        <div class="right_text">
+                            <div class="butt">
+                                <button>
+                                    <img src="photos/img18_logo.jpg" alt="">
+                                </button>
+                            </div>
+                            <div class="butt_text">
+                                <h3>
+                                    Vilen - Chidiya (Official Video)
+                                </h3>
+                                <br>
+                                <p>
+                                    Darks Music Company
+                                    <i class="fa-solid fa-circle-check"></i>
+                                </p>
+                                <p>
+                                    156M Views
+                                    <i id="dot" class="fa-solid fa-circle"></i>
+                                    4 Years ago
+                                </p>
+                            </div>
+                            <div class="butt_i">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
+<script src="week3.js"></script>
+ 
