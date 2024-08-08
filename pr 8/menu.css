@@ -1,0 +1,391 @@
+.nav-item{
+    margin-left: 15%;
+    /* border: 1px solid; */
+}
+@media (min-width:0px) and (max-width:1200px) {
+    .div{
+        display: none;
+    }
+    
+}
+#a1:hover{
+    border-bottom: 1px solid black;
+}
+#c1{
+    animation: p 3s linear infinite;
+    position: relative;
+    top: 0px;
+
+}
+@keyframes p{
+    50%{
+        /* position: relative; */
+        top:15px;
+}
+}
+#c2{
+    height:auto;
+    /* border: 1px solid; */
+}
+.col .pic1{
+    height: 370px;
+    width: 400px;
+    /* border: 1px solid; */
+    float: left;
+    background-image: url(g\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+}
+.col .pic1:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic2{
+    height: 370px;
+    width: 400px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 2%;
+    background-image: url(g\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic2:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic3{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 4%;
+    background-image: url(g\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic3:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic4{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 2%;
+    background-image: url(g\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic4:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic5{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-image: url(g\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic5:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic6{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-image: url(g\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic6:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic7{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -93%;
+    margin-top: 18%;
+    background-image: url(g\ \(8\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic7:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic8{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -78%;
+    margin-top: 18%;
+    background-image: url(g\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic8:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic9{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -63%;
+    margin-top: 18%;
+    background-image: url(g\ \(10\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic9:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic10{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -48%;
+    margin-top: 18%;
+    background-image: url(g\ \(11\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic10:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic11{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -32%;
+    margin-top: 18%;
+    background-image: url(g\ \(12\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+
+}
+.col .pic11:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+.col .pic12{
+    height: 170px;
+    width: 170px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: -16%;
+    margin-top: 18%;
+    background-image: url(g\ \(13\).png);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+
+}
+.col .pic12:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+ }
+@media (min-width:0px) and (max-width:480px) {
+   .col .pic1{
+    height: 170px;
+    width: 170px;
+   }
+   .col .pic2{
+    height: 170px;
+    width: 170px;
+   }
+   .col .pic3{
+    margin-top: 0%;
+    margin-left: 0%;
+   } 
+ 
+   .col .pic5{
+    margin-top: 0%;
+    margin-left: 0%;
+   }
+   .col .pic6{
+    margin-top: 0%;
+    margin-left: 2%;
+   } 
+   .col .pic7{
+    margin-top: 0%;
+    margin-left: 0%;
+   } 
+   .col .pic8{
+    margin-top: 0%;
+    margin-left: 2%;
+   } 
+   .col .pic9{
+    margin-top: 0%;
+    margin-left: 0%;
+   } 
+   .col .pic10{
+    margin-top: 0%;
+    margin-left: 2%;
+   } 
+   .col .pic11{
+    margin-top: 0%;
+    margin-left: 0%;
+   } 
+   .col .pic12{
+    margin-top: 0%;
+    margin-left: 2%;
+   } 
+}
+@media (min-width:480px) and (max-width:780px) {
+    .col .pic1{
+        height: 170px;
+        width: 170px;
+    }
+    .col .pic2{
+        height: 170px;
+        width: 170px;
+    }
+    .col .pic3{
+        margin-top: -33%;
+        margin-left: 70%;
+    }
+    .col .pic4{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .col .pic5{
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .col .pic6{
+        margin-top: -33%;
+        margin-left: 70%;
+    }
+    .col .pic7{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .col .pic8{
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .col .pic9{
+        margin-top: -33%;
+        margin-left: 70%;
+    }
+    .col .pic10{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .col .pic11{
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .col .pic12{
+        margin-top: -33%;
+        margin-left: 70%;
+    }
+}
+@media  (min-width:780px) and (max-width:1200px) {
+     .col .pic1{
+        height: 170px;
+        width: 170px;
+     }
+     .col .pic2{
+        height: 170px;
+        width: 170px;
+     }
+    .col .pic3{
+        margin-top: 0%;
+    }
+    .col .pic4{
+        margin-top: 0%;
+    }
+    .col .pic5{
+        margin-top: 19%;
+        margin-left: -81%;
+     }
+    .col .pic6{
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    .col .pic7{
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .col .pic8{
+        margin-left: 63%;
+        margin-top: -18%;
+    }
+    .col .pic9{
+        margin-top: 1%;
+        margin-left: -81%;
+     }
+    .col .pic10{
+        margin-top: 1%;
+        margin-left: 20%;
+    }
+    .col .pic11{
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .col .pic12{
+        margin-left: 63%;
+        margin-top: -18%;
+    }
+}
+#c3{
+    height: auto;
+    /* border: 1px solid; */
+}    
+#king{
+    height: 100px;
+}
+#c3 a{
+   color: gray;
+   padding: 1%;
+}
+#c3 a:hover{
+    color: rgb(24, 196, 24);
+}
+#c3 p{
+    color:black;
+    font-size: 12px;
+}
