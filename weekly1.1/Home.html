@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Home.css">
+   <link rel="stylesheet" href="Media.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='/script.js'></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="header">
+      
+
+		<header>
+			<div class="head_container">
+				<div class="logo">
+					<img src="https://jthemes.net/themes/html/organic/assets/images/logo/logo.png">
+				</div>
+				<div class="menu" id="myTopnav">
+					<ul>
+						<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
+						<li><a href="#" style="	color: #62A403;">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Pages</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="icn">
+					<i class="fa-solid fa-magnifying-glass" style="color: #62A403; font-size: 17px; padding: 5%;"></i>
+					<i class="fa-regular fa-user" style="color: black; background-color: rgb(198, 195, 195); border: none; font-size: 16px; padding: 5%;"></i>
+					<i class="fa-regular fa-heart"  style="color: black; background-color: rgb(198, 195, 195); border: none; font-size: 16px; padding: 5%;"></i>
+					<i class="fa-solid fa-bag-shopping" style="color: #fff; background-color: #62A403; font-size: 18px; padding: 5%;"></i>
+
+				</div>
+			</div>
+		</header>
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#">Home</a>
+			  <a href="#">About</a>
+			  <a href="#">Portfolio</a>
+			  <a href="#">Request Quote</a>
+			  <a href="#">Contact</a>
+			  <p style="color: #1c3664; text-align: center">Hubover &copy; 2017</p>
+		</div>
+
+    </div>
+	<div class="main1">
+			<div class="img1"></div>
+			<div class="txt">
+				<center>
+					<p class="p1">100% Organic Foods</p><br><br>
+
+				</center>
+				<h1>Organic Veggies & Foods <br> You Cook <span style="color: #62A403;">Healthy</span>
+					
+					</h1><br><br>
+					<input type="text" class="input-field" placeholder="Search Product">
+					<div class="dropdown">
+						<button class="subscribe-btn">Select a Categories</button>
+						<div class="dropdown-content">
+							<a href="#">carrot</a>
+							<a href="#">asparagus</a>
+							<a href="#">cauliflower</a>
+						</div>
+					</div>		
+					</div>
+		<div class="img2"></div>
+	</div>
+
+	<div class="main2">
+		<div class="txt1">
+			<p>FRESH FROM OUR FARM</p>
+			<p class="p1">Popular Categories</p>
+		</div>
+		<div class="image2">
+			<img src="https://jthemes.net/themes/html/organic/assets/images/category/cat3.png" alt="">
+			<img src="https://jthemes.net/themes/html/organic/assets/images/category/cat4.png" alt="">
+			<img src="https://jthemes.net/themes/html/organic/assets/images/category/cat5.png" alt="">
+			<img src="https://jthemes.net/themes/html/organic/assets/images/category/cat2.png" alt="">
+			<img src="https://jthemes.net/themes/html/organic/assets/images/category/cat1.png" alt="">
+		</div>
+	</div>
+	<center>
+		<div class="main3">
+			<div class="sidebar">
+				<div class="box1">
+					<p>FRESH FROM OUR FARM</p>
+					<p class="p2">Fresh produce Categories</p>
+				</div><br>
+				<div class="box2">
+					<div class="div1" onclick="categoryClicked('Vegetables')">
+						<div class="img">
+							<img src="https://jthemes.net/themes/html/organic/assets/images/category/ctg_icon1.png" alt="" height="35px">
+						</div>
+						<div class="txt3">
+							<p>Vegetables</p>
+						</div>
+						<div class="rd">30</div>
+					</div><br>
+					<div class="div2" onclick="categoryClicked('Fresh Fruits')">
+						<div class="img">
+							<img src="https://jthemes.net/themes/html/organic/assets/images/category/ctg_icon2.png" alt="" height="35px" width="30px">
+						</div>
+						<div class="txt3">
+							<p>Fresh Fruits</p>
+						</div>
+						<div class="rd">30</div>
+					</div><br>
+					<div class="div3" onclick="categoryClicked('Beverages')">
+						<div class="img">
+							<img src="https://jthemes.net/themes/html/organic/assets/images/category/ctg_icon3.png" alt="" height="35px" width="30px">
+						</div>
+						<div class="txt3">
+							<p>Beverages</p>
+						</div>
+						<div class="rd">30</div>
+					</div><br>
+					<div class="div4" onclick="categoryClicked('Babies & Kids')">
+						<div class="img">
+							<img src="https://jthemes.net/themes/html/organic/assets/images/category/ctg_icon4.png" alt="" height="35px">
+						</div>
+						<div class="txt3">
+							<p>Babies & Kids</p>
+						</div>
+						<div class="rd">30</div>
+					</div><br>
+					<div class="div5" onclick="categoryClicked('Frozen Foods')">
+						<div class="img">
+							<img src="https://jthemes.net/themes/html/organic/assets/images/category/ctg_icon5.png" alt="" height="35px">
+						</div>
+						<div class="txt3">
+							<p>Frozen Foods</p>
+						</div>
+						<div class="rd">30</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu2">
+				<br><br><br>
+                  <div class="box1">
+					<div class="img">
+						 <img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+					</div>
+					<div class="txt4">
+						<button class="btn">MEATS</button><br>
+						  <span>	
+							&starf; &starf; &starf; &starf; &star;
+						<p>Organic Kivey</p>
+						<p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+						</span> 
+					</div>
+				  </div>
+				  <div class="box1">
+					<div class="img">
+						<img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+				   </div>
+				   <div class="txt4">
+					   <button class="btn">MEATS</button><br>
+						 <span>	
+						   &starf; &starf; &starf; &starf; &star;
+					   <p>Organic Cabbage</p>
+					   <p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+					   </span> 
+				   </div>
+				  </div>
+				  <div class="box1">
+					<div class="img">
+						<img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+				   </div>
+				   <div class="txt4">
+					   <button class="btn">MEATS</button><br>
+						 <span>	
+						   &starf; &starf; &starf; &starf; &star;
+					   <p>Organic Cabbage</p>
+					   <p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+					   </span> 
+				   </div>
+				  </div>
+				  <div class="box1">
+					<div class="img">
+						<img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+				   </div>
+				   <div class="txt4">
+					   <button class="btn">MEATS</button><br>
+						 <span>	
+						   &starf; &starf; &starf; &starf; &star;
+					   <p>Organic Mangeo</p>
+					   <p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+					   </span> 
+				   </div>
+				  </div>
+				  <div class="box1">
+					<div class="img">
+						<img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+				   </div>
+				   <div class="txt4">
+					   <button class="btn">MEATS</button><br>
+						 <span>	
+						   &starf; &starf; &starf; &starf; &star;
+					   <p>Organic Tomoato</p>
+					   <p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+					   </span> 
+				   </div>
+				  </div>
+				  <div class="box1">
+					<div class="img">
+						<img src="https://jthemes.net/themes/html/organic/assets/images/product/product2.png" alt="">
+				   </div>
+				   <div class="txt4">
+					   <button class="btn">MEATS</button><br>
+						 <span>	
+						   &starf; &starf; &starf; &starf; &star;
+					   <p>Organic Onione</p>
+					   <p class="p5">$50.00 <span style="color: rgb(172, 171, 171); font-size: 17px; margin-left: 2%; text-decoration: line-through;">$65.00</span></p>
+					   </span> 
+				   </div>
+				  </div>
+			</div>
+		</div>
+		
+	</center>
+
+    <script src="Home.js"></script>
+
+</body>
+</html>

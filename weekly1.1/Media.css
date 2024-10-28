@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .img1 {
+        display: none;
+     }
+    .img2 {
+        width: 100%;
+        height: auto; 
+        margin-bottom: 15px;
+    }
+    .txt {
+        padding: 10px;
+        width: 100%;
+        max-width: 90%;
+    }
+    .txt h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .txt .p1 {
+        font-size: 14px;
+    }
+    .input-field {
+        width: 100%;
+        max-width: 90%;
+        margin-top: 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .subscribe-btn {
+      
+        display: none;
+    }
+   
+}
